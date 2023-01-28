@@ -1,0 +1,10 @@
+print('Координаты точки 1:')
+x1 = float(input('Координата X1 = '))
+y1 = float(input('Координата Y1 = '))
+print('Координаты точки 2:')
+x2 = float(input('Координата X2 = '))
+y2 = float(input('Координата Y2 = '))
+dictance = (abs(x1 - x2) ** 2 + abs(y1 - y2) ** 2) ** (0.5)
+dictance = int(dictance * 100) / 100
+print(f'Расстояние между точкамми с координатами: \n[x1 = {x1}, y1 = {y1}] и [x2 = {x2}, y2 = {y2}]')
+print(f'составляет {dictance}')
